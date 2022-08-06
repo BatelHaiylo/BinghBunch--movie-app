@@ -1,15 +1,6 @@
-.top_movie_card_overlay{
-    opacity: 0;
-    transition: .5s ease;
-}
-.card_con:hover .top_movie_card_overlay{
-    opacity: 1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+#food_bg{
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    min-height: 100vh ;
 }

@@ -1,4 +1,3 @@
- 
 function sound(){
   let video = document.getElementById("myVideo"); 
     return video.muted ? video.muted = false: video.muted = true

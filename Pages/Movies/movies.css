@@ -1,0 +1,37 @@
+/* .card:hover>.front{
+    transform: perspective(600px) rotateY(-180deg);
+    -webkit-transform: perspective(600px) rotateY(-180deg);
+       position: relative;
+    transition: transform .6s;
+    background-color: black;
+    opacity: 1;
+    height: 100%;
+
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+    -webkit-transform: perspective(600px) rotateY(0deg);
+} */
+.card:hover>.back{
+    transform: perspective(600px) rotateY(0deg);
+    -webkit-transform: perspective(600px) rotateY(0deg);
+   position: absolute;
+    transition: transform .6s;
+    background-color: black;
+    opacity: 1;
+    height: 100%;
+
+}
+.back{
+    transform: perspective(600px) rotateY(180deg);
+    -webkit-transform: perspective(600px) rotateY(180deg);
+}
+ .back{
+ opacity: 0;
+}
+#movie_heart:active{
+    color: red;
+}
+#movie_tumb:hover{
+    color: red;
+}

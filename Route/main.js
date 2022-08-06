@@ -3,18 +3,29 @@ function changeMainContent(value){
         case 'Home':
             pageHome()
             break;
-
         case 'Login':
             pageLogin()
             break;
         case 'Food':
             pageFood()
             break;
-        case 'Movies':
-            pageMovies()
+        case 'Drama':
+            pageDramaMovies()
             break;
-        case 'Admin':
-            pageAdmin()
+        case 'Popular':
+            pagePopularMovies()
+            break;
+        case 'TOP THIS WEEK':
+            pageTopMovies()
+            break;
+        case 'Sci-fi':
+            pageScifiMovies()
+            break;
+        case 'KIDS':
+            pageKidsMovies()
+            break;
+        case 'Soundtrack':
+            pageSoundtrack()
             break;
     
         default:
