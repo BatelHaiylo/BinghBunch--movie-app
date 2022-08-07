@@ -9,8 +9,8 @@ let image_path = "https://image.tmdb.org/t/p/w500";
 let movies;
 async function getMovieData(url){
     try{
-        return await fetch(url)
-        .then(res => res.json()).then(res => res.results)
+      return await fetch(url)
+      .then(res => res.json()).then(res => res.results)
     }
     catch(eror){
         alert(eror)

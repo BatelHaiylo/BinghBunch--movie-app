@@ -19,71 +19,7 @@ function  pageHome(){
     </div>
 
     <h3>Recently Added</h3>
-    <div class="row row-cols-2 row-cols-md-6 g-3">
-      <div class="col">
-        <div class="card">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWz4N8_02ex18eLHxXrFUkJATvNkKmmWiEXtqN6ItQwjhczvYRPDrMBUWyJDSjZrsZHyJ-l2lnwgImXEl8_V6KuutVZ9HbMaALo1146RcMdGAN-3AHfqlpzY-yZUjURD_h17egSJaEHOwX1xTv6pjVj_cybtWhdoLQv5hVSr16VXayQsG51JiIw8kUcIXw8_Yke4U27f6uyIa-kqf3YWyYMFetK4E7JK.jpg?r=676" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe1z0tjKqLo3JgLVVYD5YiTAEI20Z-RQl_D7ncXLgWnPh76IA1aZZJFfVWEDV4VKVtaqfP3gdzVwL_0W_3CKgwFJqR9TswHHgxfLn0zeC7ZKh-PG-5H0yLnuFDtJspcMmOzy9yGumAkXSoRLuf_F6GTKwOSFIX504cyUnkQ_Z_0s8qxFMERODkMy3EbIPdQ.jpg?r=52b" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMcEcwJxOPKQvzzVuOSZPnnnvEUUgzJYoYkeIWfqmOHWueCho4NyYX1NEKA1Ps1CBCTX4FjfoQnd4qSV2nR6FeTyQKXfp0Q7WIpWtUbVgY4PQsmS5o6qbqk7p2w3vfWKRG1.jpg?r=c20" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbvwr2yzszrrQesxPZ8QPdbjQ6pSQa0POnbAv0KvUuH2LPoomcTtzXV3Xnbe7DTSRhPltCRZS5CbO08HG9RLsfORWXDFA7YVDYpD2ouZ9GsQsBr_vuC7CH9QbfaLiu8ubik6.jpg?r=e5e" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWBHigbubrAt05TeS8l0nfrmCuJYy4G6aJwGowj5pCGolddDKfm9OkUFd6PGJfHlCxl-CsTiMy2jWcuIiFKM4IH7RruJrsrJGwcjsUbu1QaaQFrxWJskOh-QOUtnZ8DPA59f.jpg?r=b3f" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUo5OYD2lih39bsHpptGyjvoRHvfyi0mhU1MmaSnWAacG4FAbomWRYEE-ETbfJaMZp0TDFFnRrXTLKO_GYcmEl5ojVFTGKTZaCkSbWoY8X6lNoEgU6lC5e7zwAV2vynjDR1IO1r2uohWphivv5uMh_6LDh5aDV3Z7S7cXZFdrHEuPgC28ih70b4fgvEcD1k.jpg?r=b61" class="card-img-top">
-        </div>
-      </div>
-    </div>
-
-    <h3 class="mt-5">Trending Now</h3>
-    <div class="row row-cols-2 row-cols-md-6 g-3">
-      <div class="col">
-        <div class="card">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABau4RGWBEMvJ3Iy9LWJxTUogVilVt9dN6eorPv_V9M6tIMOtxyRMiAMoB3p8OnH0j_QcBz9FEKsNX_sUlxtoliXLcr3tcFghXAuOoo7Y8nrbk65RmO0ruvfVonvnji3_aHeC__x3E3WJEx9UhaD7jgXFDHvU4Nr-JvIl9zE.jpg?r=a49" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABe9Pp4lgGbVIBGCowS9-ymX5W5aI9xQeQhTIKNO68u551vXN9Y_0NJC8sLo-IxXiY6klD3DlQRXH5E1Le2C7EUpfnCBrb100LqZgni36ipGmiaw0fmXfasSNAgCc9j3YF2fAiA.jpg?r=ee8" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABfZ59DQFEke-u5kuvqzw0UniVi41_2bPTtQqexPeVka1N9r_jd7BkAgn2hDOP1nTCx_H3l1XNB7tSZuZsfjt-4NSL1DqS2HGIrGdnPMFU7zq32BtaMedAEIZLCfpX-UW8tWkzQ.jpg?r=e79" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZ4qxa93twISlOznccn74LJMJcZI-kJPPhxEAj8UJrWAVgcwElbhWa1V0Wf6SC4lFG-piewjE_ZP8Z8W6gXllgoxUJrgjJmSWkK6pCLqGW1IyWfnLQYKz7J0SwwyrjuY1x9xQA.jpg?r=cc9" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZs7psXYSLfYEGsrLq_1ggY9h0iHYOEGuWz1xqQIYLBYWt0tZ4fcBJ5LY9G5cRilQ1Zs1ZpWYuM6NrhG2EMwj5_DQ_USKVrpYTbPtDX3RthSTryx7-AKl6U2SvdfH9TU1f2zxA.jpg?r=6ed" class="card-img-top">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABShHP6o11dtZZgfmWCnxoKmXmjBQ7WzkEq7VC9XwnpSkmxcKEGEDSOJCqbG7XsxKoOvXn_n9LqSSzBul3YQ-Sij6LDHsOcqVFILqTdTAdGn5jw9SbLi9Gf_kLHN5XraMsu8ExomMBArCPOt5pf2_zamj1s0BQfUclaT_EIU.jpg?r=1fe" class="card-img-top">
-        </div>
-      </div>
+    <div class="row row-cols-2 row-cols-md-6 g-3" id="RecentlyAdded">
     </div>
 
     <h3 class="mt-5">NEW FOR KIDS</h3>
@@ -132,13 +68,13 @@ function  pageHome(){
       </div>
     </div>
 
-    <div class="row row-cols-sm-1 row-cols-md-5 p-0 m-0 text-white mt-5">
+    <div class="row row-cols-2 row-cols-md-6 g-3 text-white mt-5">
       <div class="col col-sm-12" >
-        <div class="card card_con bg-dark">
+        <div class="card">
           <a href="https://www.netflix.com/watch/81160697?trackId=262617323&tctx=4%2C0%2Ca096926f-8921-4ece-ad29-bc800b948f40-9157370%2CGPS_9C07A97EC9C5ABDEF97468484E44A3-F4694D00993BC3-61659558DB_p_1659111451938%2CGPS_9C07A97EC9C5ABDEF97468484E44A3_p_1659111451938%2C%2C%2C%2C81160697">
           <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABbAOAoXkIVLfagoZEcJuZRnqQHBtoMvXsemVtdY-AXSdPtGCr7m1peuy4FVbp7o6Yydr94KQ4LYktbI6H86G-kePvVIZf-PVDMoHwiSL2GX2Sd4xH5WWLQJQWmw7kgNJ5GCjXg.jpg?r=e22" class="card-img-top top_card.pic">
       </a>
-          <div class="card bg-dark h-50 opacity-75 top_movie_card_overlay">
+          <div class="card opacity-75 back home_big_img ">
             <h5 class="card-title">Keep Breathing</h5>
             <p class="card-text">When a small plane crashes in the middle of the Canadian wilderness, a lone woman must battle the elements and odds to survive.</p>
           </div>
@@ -146,51 +82,64 @@ function  pageHome(){
         </div>
       </div>
       <div class="col col-sm-12">
-        <div class="card card_con bg-dark">
+        <div class="card">
           <a href="https://www.netflix.com/watch/81259570?trackId=262617323&tctx=4%2C1%2Ca096926f-8921-4ece-ad29-bc800b948f40-9157370%2CGPS_9C07A97EC9C5ABDEF97468484E44A3-F4694D00993BC3-61659558DB_p_1659111451938%2CGPS_9C07A97EC9C5ABDEF97468484E44A3_p_1659111451938%2C%2C%2C%2C81259570">
           <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABawbyfRhp99In9-VfZ8buwfOFfiEk0Zq9uAsPlulYpKD1YuQfMoS5rV9S6tMcIeX0drmQygHwOYhbPoe02uV8JpyLrwN6u0Y-o6K9Ei7X1u7O74G9M50uE9k5sZjJ7zlDLWEOw.jpg?r=edd" class="card-img-top">
       </a>
-          <div class="card bg-dark h-50 opacity-75 top_movie_card_overlay">
+          <div class="card opacity-75 back home_big_img ">
             <h5 class="card-title">Recurrence</h5>
-            <p class="card-text">Years after moving to a remote town, ex cop Pipa is pulled back into the dark world she thought she'd left behind when she gets tangled in a murder case.</p>
+            <p class="card-text">Years after moving to a remote town, ex cop Pipa is pulled into the dark world she thought she'd left behind when she gets tangled in a murder case.</p>
           </div>
         </div>
       </div>
       <div class="col col-sm-12">
-        <div class="card card_con bg-dark">
+        <div class="card">
           <a href="https://www.netflix.com/watch/81018682?trackId=262617323&tctx=4%2C2%2Ca096926f-8921-4ece-ad29-bc800b948f40-9157370%2CGPS_9C07A97EC9C5ABDEF97468484E44A3-F4694D00993BC3-61659558DB_p_1659111451938%2CGPS_9C07A97EC9C5ABDEF97468484E44A3_p_1659111451938%2C%2C%2C%2C81018682">
           <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABdlqeLEvk4bxt-OXg5pcIko30Pl7lBWMfjtImJ-UitsDVobQw9lzvlKoh7MOAetCiGajrb3L-6aR_EvM5EjxdruxdPzluTVeFYPtdCnOl7EmBfIcftPFhyRTscfOVNB33Kphgw.jpg?r=41e" class="card-img-top">
       </a>
-          <div class="card bg-dark h-50 opacity-75 top_movie_card_overlay">
+          <div class="card opacity-75  back home_big_img ">
             <h5 class="card-title">The Sea Beast</h5>
             <p class="card-text">The story of a young orphan girl who joins a group of sea monster hunters on their search for the elusive Red Bluster.</p>
           </div>
         </div>
       </div>
       <div class="col col-sm-12">
-        <div class="card card_con bg-dark">
+        <div class="card">
           <a href="https://www.netflix.com/watch/81410649?trackId=262617323&tctx=4%2C3%2Ca096926f-8921-4ece-ad29-bc800b948f40-9157370%2CGPS_9C07A97EC9C5ABDEF97468484E44A3-F4694D00993BC3-61659558DB_p_1659111451938%2CGPS_9C07A97EC9C5ABDEF97468484E44A3_p_1659111451938%2C%2C%2C%2C81410649">
               <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABeEvkRER4apPxlSJfcoDDDQm2K99-Ogf2aWzTkMQUU983dWnGrxg63hXMC5m0gHHnJuTRjhNrovJxE_J0zxC3pNCtF_nKfMdFJ35P8ceS1c-MuFPa5cQv0HkS--dmqLfhtEz_Q.jpg?r=cf3" class="card-img-top">
           </a>
-              <div class="card bg-dark h-50 opacity-75 top_movie_card_overlay">
+              <div class="card opacity-75 back home_big_img">
             <h5 class="card-title">Persuasion</h5>
             <p class="card-text">Eight years after Anne Elliot was persuaded not to marry a dashing man of humble origins, they meet again. Will she seize her second chance at true love?.</p>
           </div>
         </div>
       </div>
       <div class="col col-sm-12">
-        <div class="card card_con bg-dark">
+        <div class="card">
           <a href="https://www.netflix.com/watch/81578248?trackId=262639554&tctx=4%2C4%2Ca096926f-8921-4ece-ad29-bc800b948f40-9157370%2CGPS_9C07A97EC9C5ABDEF97468484E44A3-F4694D00993BC3-61659558DB_p_1659111451938%2CGPS_9C07A97EC9C5ABDEF97468484E44A3_p_1659111451938%2C%2C%2C%2C81578248">
           <img src="https://occ-0-3338-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABQg8K4TKzXJRptsLfBqnRGRdYj-Tjws5cn6w3d0eMpybpH7yGX3DBQVv1wPpEsrs4z2Mn9REi94KITcxKiT_yOxluQbYwt3gM9wl.webp?r=355" class="card-img-top">
       </a>
-          <div class="card bg-dark h-50 opacity-75 top_movie_card_overlay">
+          <div class="card opacity-75 back home_big_img ">
             <h5 class="card-title">Image of Victory</h5>
             <p class="card-text">War film from Israeli director Avi Nesher that grapples with the true cost of war — and what price people are willing to pay for freedom.</p>
           </div>
         </div>
       </div>
+      <div class="col col-sm-12">
+        <div class="card">
+          <a href="https://www.netflix.com/watch/81132044?trackId=262617323&tctx=4%2C1%2C011b2aff-f9ba-4450-9ba2-f0c32880be04-13578972%2CGPS_9C07A97EC9C5ABDEF97468484E44A3-F4694D00993BC3-5DA10999BD_p_1659883832891%2CGPS_9C07A97EC9C5ABDEF97468484E44A3_p_1659883832891%2C%2C%2C%2C81132044">
+          <img src="https://occ-0-2616-1167.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZ0h_7yX4RJJz8WuwpvdjpBSBADzqahFUo8QbE2B1zB03fiGLc6I5VqZBNij5Dw_3Pmdl9gstp_JhXF1M8zQ4FZkyXHp1Ps3zSIJ6qjWOQf7q8V258217ovJcWMt5koJ1f4WoA.jpg?r=8cf" class="card-img-top">
+      </a>
+          <div class="card opacity-75 back home_big_img ">
+            <h5 class="card-title">Wedding Season</h5>
+            <p class="card-text">Under parental pressure to find spouses,Asha and Ravi pretend to date during a summer of weddings - but their ruse goes awry when feelings turn real.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section id="API_HOME">${addToHomePage(KidsMoieApi)}</section>
 
     <section class="pb-0 pt-3 mt-1">
       <div class="container d-block">
@@ -223,8 +172,61 @@ function  pageHome(){
     </section>
 </div>
     `
+    HPMovieRow(RAParr)
+}
+async function addToHomePage(url,elementId = 'API_HOME',result='<div class="row container-fluid overflow-hidden">') {
+  movies = await getMovieData(url)
+  console.log(movies)
+  movies.forEach((movie,index) => {
+    if(index % 4 == 0) {result += '</div><div class="row container-fluid">'}
+      result += HomecardTemplate(movie,index)
+  });
+document.getElementById(elementId).innerHTML = result
 }
 
+function HomecardTemplate(movie) {
+  let {poster_path, id} = movie
+  return `
+  <div class="card col-sm-10 col-md-3 g-2 g-md-0 bg-black" id="${id}" style=" max-height:0vh">
+  <img src="${ image_path+poster_path}" class="card-img-top frontHome">
+</div>
+`
+}
+
+const RAParr = ["https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616927550420-G7CYCSSJH27DW13VSLL9/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo19.jpg?format=500w",
+"https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616928600032-9RLRIWA657SBK39MB8EH/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo48.jpg?format=500w",
+"https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616928766165-Q5XK89Y52PK691I4CYDP/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo58.jpg?format=500w",
+"https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616928750298-O6FD1K3UN9YN6TC4R9HQ/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo57.jpg?format=500w",
+"https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616927125438-QBFTUADTKERIS20BE4EL/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo9.jpg?format=500w",
+"https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616927046927-O41YC1PSTK9RCI4H6D4U/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo7.jpg?format=500w"]
+
+// function HPMovieRow(arr,id){
+//   let result = ""
+//   arr.forEach(pic => {
+//     result += `
+//     <div class="col">
+//     <div class="card">
+//       <img src="${pic}" class="card-img-top">
+//     </div>
+//   </div>
+//     `
+//   })
+//   return document.getElementById(id).innerHTML = result
+// }
 
 
-// {/* <p class="card-text">Jake Sully lives with his newfound family formed on the planet of Pandora.<br> Once a familiar threat returns to finish what was previously started,<br> Jake must work with Neytiri and the army of the Na'vi race to protect their planet.</p> */}
+
+function HPMovieRow(arr){
+ 
+  arr.forEach(pic => {
+    document.querySelector(`#RecentlyAdded`).innerHTML += `
+    <div class="col">
+    <div class="card">
+      <img src=${pic} class="card-img-top"/>
+    </div>
+  </div>
+    `
+  })
+
+}
+

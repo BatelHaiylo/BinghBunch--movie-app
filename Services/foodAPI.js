@@ -8,8 +8,7 @@ async function getFoodData(foodType) {
     ).then((res) => res.json());
   } catch (eror) {
     alert(eror);
-  } finally {
-  }
+  } finally {}
 }
 
 function addToPage(
@@ -50,7 +49,7 @@ function FoodCard(obj) {
             <h5 class="card-title">${label}</h5>
             <span class="card-title">${dietLabels}</span>
             <span>calories:<br>${calories}</span><br><br>
-            <buttonclass="btn btn-dark"><a href="${url}" target="_blank" rel="noopener noreferrer" class="link-danger">RECIPE</a></button>
+            <buttonclass="btn btn-dark"><a href="${url}" target="_blank" rel="noopener noreferrer" >RECIPE</a></button>
           </div>
         </div>
     `;
