@@ -21,8 +21,8 @@
               <a class="navbar-brand d-flex" href="#"><h1 class="text-danger app_logo">BINGE</h1><h1 class="text-white app_logo">BUNCH</h1></a>
 
               <div class="btn-group">
-                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="hedearUser">
-                  user
+                <button type="button" class="btn btn-black text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="hedearUser">
+                  <a href="#" onclick="changeMainContent('Login')" class="link-danger">Login</a>
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#" onclick="logout()">logout</a></li>
@@ -34,7 +34,7 @@
               </button>
               <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title text-danger" id="offcanvasDarkNavbarLabel"><h5 class="text-danger app_logo">BINGE<h5 class="text-white app_logo">BUNCH</h5></h5></h5>
+                  <h5 class="offcanvas-title text-danger" id="offcanvasDarkNavbarLabel"><h5 class="text-danger app_logo">BINGE<h5 class="text-white app_logo">BUNCH</h5></h5>
                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -53,8 +53,10 @@
                         Movies
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#" onclick="changeMainContent('All Movies')">All Movies</a></li>
+                        <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#" onclick="changeMainContent('Popular')">Popular</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeMainContent('TOP OF THE WEEK')">TOP THIS WEEK</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeMainContent('TOP THIS WEEK')">TOP THIS WEEK</a></li>
                         <li>
                           <hr class="dropdown-divider">
                         </li>
@@ -73,29 +75,26 @@
                       <a class="nav-link" href="#" onclick="changeMainContent('Admin')">Admin</a>
                     </li>
                   </ul>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-danger" type="submit">Search</button>
-                  </form>
                 </div>
               </div>
             </div>
     </header>
-
     <main>
-      <div id="div_container">
-     
-      </div>
+      <div id="above_container"></div>
+      <div id="div_container"></div>
     </main>
-       <div class="container-fluid p-5 sticky-bottom d-flex justify-content-center">
-               <a href="https://github.com/BatelHaiylo" target="_blank" class="px-5 link-danger"><i class="bi bi-github"></i></a>
-               <a href="https://www.linkedin.com/in/batel-haiylo/" target="_blank" class="pe-5 link-danger"><i class="bi bi-linkedin"></i></a>
-               <a href="https://www.behance.net/HAIYLOB" target="_blank" class="pe-5 link-danger"><i class="bi bi-behance"></i></a>
-               <a href="mailto:inpo686@gmail.com?subject = Feedback&body = Message" class="link-danger"><i class="bi bi-envelope-plus-fill"></i></a>
-       </div>
+
+
+    <footer class="container-fluid p-5 sticky-bottom d-flex justify-content-center">
+       <a href="https://github.com/BatelHaiylo" target="_blank" class="px-5 link-danger"><i class="bi bi-github"></i></a>
+       <a href="https://www.linkedin.com/in/batel-haiylo/" target="_blank" class="pe-5 link-danger"><i class="bi bi-linkedin"></i></a>
+       <a href="https://www.behance.net/HAIYLOB" target="_blank" class="pe-5 link-danger"><i class="bi bi-behance"></i></a>
+       <a href="mailto:inpo686@gmail.com?subject = Feedback&body = Message" class="link-danger"><i class="bi bi-envelope-plus-fill"></i></a>
    </footer>
+
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    <script src="Pages/Admin/admin.js"></script>
-    <script src="Services/moviesAPI.js"></script>
+    <script src="Services/TrailersAPI.js"></script>
+   <script src="Services/moviesAPI.js"></script>
     <script src="Services/soundAPI.js"></script>
     <script src="Services/foodAPI.js"></script>
     <script src="Pages/Home/home.js"></script>
@@ -108,6 +107,7 @@
     <script src="Pages/Movies/kids.js"></script>
     <script src="Pages/SOUNDTRACK/soundtrack.js"></script>
     <script src="Route/main.js"></script>
+    <script src="Pages/Movies/mainMovie.js"></script>
     
 </body>
 </html>

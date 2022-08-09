@@ -7,13 +7,15 @@
     -webkit-transform: perspective(600px) rotateY(-180deg);
        position: relative;
     transition: transform .6s;
-    opacity: 1;
+    opacity: 0;
     height: 100%;
+
 }
 .frontHome{
-    z-index: 1;
-    opacity:0 ;
     transform: perspective(600px) rotateY(0deg);
-    -webkit-transform: perspective(600px) rotateY(0deg); 
+    -webkit-transform: perspective(600px) rotateY(0deg);
+    background-color: black;
+    opacity: 1;
+    z-index: 0;
 }
 

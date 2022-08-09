@@ -49,7 +49,8 @@ function FoodCard(obj) {
             <h5 class="card-title">${label}</h5>
             <span class="card-title">${dietLabels}</span>
             <span>calories:<br>${calories}</span><br><br>
-            <buttonclass="btn btn-dark"><a href="${url}" target="_blank" rel="noopener noreferrer" >RECIPE</a></button>
+            <button class="btn btn-dark"><a href="${url}" target="_blank" rel="noopener noreferrer" class="link-danger text-decoration-none" >RECIPE</a></button>
+            <button class="btn btn-danger"><a href="https://www.10bis.co.il/next/en/deliveries/lod" target="_blank" class="link-dark text-decoration-none" >ORDER NOW</a></button>
           </div>
         </div>
     `;

@@ -1,4 +1,5 @@
 function changeMainContent(value){
+    document.querySelector('#above_container').innerHTML =""
     switch (value) {
         case 'Home':
             pageHome()
@@ -11,6 +12,9 @@ function changeMainContent(value){
             break;
         case 'Drama':
             pageDramaMovies()
+            break;
+        case 'All Movies':
+            pageAllMovies()
             break;
         case 'Popular':
             pagePopularMovies()
@@ -27,8 +31,8 @@ function changeMainContent(value){
         case 'Soundtrack':
             pageSoundtrack()
             break;
-    
         default:
+            pageLogin()
             break;
     }
 

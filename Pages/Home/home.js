@@ -6,14 +6,13 @@ function sound(){
 function  pageHome(){
     localStorage.setItem('page', 'Home');
     document.querySelector('#div_container').innerHTML = `
-    <div class="container-fluid mt-0 text-bg-dark">
-    <div class="container-fluid w-100 px-0 overflow-hidden">
+    <div class="container-fluid mt-0 text-bg-black">
     <video autoplay class="w-100 px-0" muted="true" loop poster="video.jpg" id="myVideo">
-    <source src="VIDEO/avatar-2-the-way-of-water-trailer-2-james-c.mp4" type="video/mp4">
-</video>
+      <source src="VIDEO/black-panther-2-trailer-2022-wakanda-forever.mp4" type="video/mp4">
+    </video>
         <div class="card-img-overlay pt-5 m-5">
-            <h1 class="card-title">Avatar: The Way of Water</h1>
-            <p class="card-text"> Epic science-fiction film directed by James Cameron</p>
+            <h1 class="card-title">Black Panther 2</h1>
+            <p class="card-text"> As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog<br> Nakia (Lupita Nyong'o) and Everett Ross (Martin Freeman) and forge a new path for the kingdom of Wakanda</p>
             <button onclick="sound()" class="btn btn-dark"><i class="bi bi-soundwave"></i></button> 
           </div>
     </div>
@@ -145,7 +144,7 @@ function  pageHome(){
       <div class="container d-block">
         <div class="row">
           <div class="col">
-            <div class="bg-dan p-3 p-sm-4 rounded-3 position-relative overflow-hidden">
+            <div class="bg-black p-3 p-sm-4 rounded-4 position-relative overflow-hidden">
               <div class="row">
                 <div class="col-md-8 col-lg-6 mx-auto text-center py-5 position-relative">
                   <!-- Title -->
@@ -187,7 +186,7 @@ document.getElementById(elementId).innerHTML = result
 function HomecardTemplate(movie) {
   let {poster_path, id} = movie
   return `
-  <div class="card col-sm-10 col-md-3 g-2 g-md-0 bg-black" id="${id}" style=" max-height:0vh">
+  <div class="card col-sm-10 col-md-3 g-2 g-md-0 bg-black backHome" id="${id}" style=" max-height:0vh">
   <img src="${ image_path+poster_path}" class="card-img-top frontHome">
 </div>
 `
@@ -200,33 +199,16 @@ const RAParr = ["https://images.squarespace-cdn.com/content/v1/57825361440243db4
 "https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616927125438-QBFTUADTKERIS20BE4EL/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo9.jpg?format=500w",
 "https://images.squarespace-cdn.com/content/v1/57825361440243db4a4b7830/1616927046927-O41YC1PSTK9RCI4H6D4U/Polish-movie-posters-rocky-thegodfather-apocalypsenow-alienandaliens-taxidriver-termiantor-poland-cinema-sabukaru-online-magazine-tokyo7.jpg?format=500w"]
 
-// function HPMovieRow(arr,id){
-//   let result = ""
-//   arr.forEach(pic => {
-//     result += `
-//     <div class="col">
-//     <div class="card">
-//       <img src="${pic}" class="card-img-top">
-//     </div>
-//   </div>
-//     `
-//   })
-//   return document.getElementById(id).innerHTML = result
-// }
-
-
 
 function HPMovieRow(arr){
- 
   arr.forEach(pic => {
     document.querySelector(`#RecentlyAdded`).innerHTML += `
     <div class="col">
     <div class="card">
-      <img src=${pic} class="card-img-top"/>
+      <img src=${pic} class="card-img-top" style="height: 50vh;"/>
     </div>
   </div>
     `
   })
-
 }
 

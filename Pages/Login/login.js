@@ -1,7 +1,7 @@
 function pageLogin() {
     localStorage.setItem('page', 'Login');
     document.querySelector('#div_container').innerHTML = `
-	<section id="login_page" class="container-fluid d-flex align-items-center">
+	<section class="container-fluid d-flex align-items-center">
 		<div class="container bg-black my-5">
 			<div class="row">
 		  <div class="col-md-10 col-lg-8 col-xl-6 mx-auto">
@@ -35,7 +35,7 @@ function pageLogin() {
 									<button type="submit" class="btn btn-danger" onclick=login()>Sign me in</button>
 								</div>
 								<div class="col-sm-8 text-sm-end">
-									<span>Don't have an account? <a href="signup.html"><u>Sign up</u></a></span>
+									<span>Don't have an account? <a href="signup.html" class="link-danger"><u>Sign up</u></a></span>
 								</div>
 							</div>
 						</form>

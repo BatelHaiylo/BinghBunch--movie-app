@@ -21,6 +21,9 @@ function  pageFood(){
             <button class="btn btn-outline-danger" onclick="addToPage()" type="button"><i class="bi bi-emoji-heart-eyes"></i></button>
         </div>
         <div class="d-block" id="rnd_burger"></div>
+        <div class="d-flex justify-content-center mt-3">
+        <img src="IMAGES/ten bis logo.png" alt="ten bis" style="width:10vw; height:17vh;">
+        </div>
     </div>
     </div>
 `
