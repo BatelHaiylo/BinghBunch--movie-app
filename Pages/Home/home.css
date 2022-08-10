@@ -2,16 +2,24 @@
     display: none;
 }
 
-.card:hover>.frontHome{
+/* .card:hover>.frontHome{
     transform: perspective(600px) rotateY(-180deg);
     -webkit-transform: perspective(600px) rotateY(-180deg);
-       position: relative;
+    position: relative;
+    background-color: black;
     transition: transform .6s;
     opacity: 0;
     height: 100%;
 
-}
+} */
 .frontHome{
+    transform: perspective(600px) rotateY(0deg);
+    -webkit-transform: perspective(600px) rotateY(0deg);
+    background-color: black;
+    opacity: 0;
+    z-index: 0;
+}
+.frontHome:hover{
     transform: perspective(600px) rotateY(0deg);
     -webkit-transform: perspective(600px) rotateY(0deg);
     background-color: black;

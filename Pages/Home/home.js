@@ -186,7 +186,7 @@ document.getElementById(elementId).innerHTML = result
 function HomecardTemplate(movie) {
   let {poster_path, id} = movie
   return `
-  <div class="card col-sm-10 col-md-3 g-2 g-md-0 bg-black backHome" id="${id}" style=" max-height:0vh">
+  <div class="card col-sm-10 col-md-3 g-2 g-md-0 bg-black frontHome" id="${id}" style=" max-height:0vh">
   <img src="${ image_path+poster_path}" class="card-img-top frontHome">
 </div>
 `
