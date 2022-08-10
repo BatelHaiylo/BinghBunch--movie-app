@@ -32,7 +32,7 @@ function pageLogin() {
 
 							<div class="row align-items-center">
 								<div class="col-sm-4">
-									<button type="submit" class="btn btn-danger" onclick=login()>Sign me in</button>
+									<button type="submit" class="btn btn-danger" onclick=login(event)>Sign me in</button>
 								</div>
 								<div class="col-sm-8 text-sm-end">
 									<span>Don't have an account? <a href="signup.html" class="link-danger"><u>Sign up</u></a></span>
@@ -58,7 +58,8 @@ function pageLogin() {
 	</section>`
 }
 
-function login(){
+function login(e){
+	e.preventDefault()
 	let userName = document.getElementById('user_id').value
 	let headerName = document.getElementById('hedearUser').innerHTML = `
 	Hi, ${userName}
