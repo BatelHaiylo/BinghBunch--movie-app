@@ -54,7 +54,7 @@ function cardTemplate(movie,index) {
   <span class="text-white"><i class="bi bi-heart-fill" id="movie_heart">${popularity}  </i></span>
   <span><i class="bi bi-hand-thumbs-up-fill" id="movie_tumb"><b id="rating">${vote_average}   </b></i><i class="bi bi-person-fill">     ${vote_count}</i></i></span>
 
-  <button type="button" data="${index}" disabled class="btn btn-secondary play_btn">play</button>
+  <button type="button"  data-trailer="${index}" disabled class="btn btn-secondary play_btn">play</button>
 </div>
 </div>
 </div>

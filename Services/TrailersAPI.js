@@ -1,7 +1,7 @@
 const Toptions = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '1d1345fd4cmshb042ed67c0cdec0p167560jsn54c7a4ce9f55',
+		'X-RapidAPI-Key': 'c4706be01fmsh8961bbdf4df3fdep19608ejsn23a8432cb62e',
 		'X-RapidAPI-Host': 'movies-app1.p.rapidapi.com'
 	}
 };
@@ -18,7 +18,7 @@ async function getTrailers(url,obj){
 const Mlistoptions = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '1d1345fd4cmshb042ed67c0cdec0p167560jsn54c7a4ce9f55',
+		'X-RapidAPI-Key': 'c4706be01fmsh8961bbdf4df3fdep19608ejsn23a8432cb62e',
 		'X-RapidAPI-Host': 'movies-app1.p.rapidapi.com'
 	}
 };
@@ -61,11 +61,10 @@ async function fetchMoviesTrailers(){
     })
 }
 function addTrailerToBtn(list){
-    let counter=0;
     let playBtns = document.getElementsByClassName("play_btn");
     for(let btn of playBtns){
         btn.addEventListener("click",()=>{
-            document.getElementById(`modelbody${counter}`).innerHTML =  `<iframe src=${list[counter++]}?controls=0&autoplay=1&mute=1 width="420" height="345"><ifram/>`
+            document.getElementById(`modelbody${+btn.dataset.trailer}`).innerHTML =  `<iframe src=${list[+btn.dataset.trailer]}?controls=0&autoplay=1&mute=1 width="420" height="345"><ifram/>`
         })
         btn.disabled = false;
     }
