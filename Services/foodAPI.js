@@ -21,7 +21,7 @@ function addToPage(
   getFoodData(foodType)
     .then((result) => {
       console.log(result["hits"]);
-      result["hits"].forEach((obj) => {
+      result["hitts"].forEach((obj) => {
         if (obj["recipe"]["cuisineType"] == foodType && dishArr.length < 4) {
           dishArr.push(obj["recipe"]);
         }
@@ -51,7 +51,7 @@ function FoodCard(obj) {
             <span>calories:<br>${calories}</span><br><br>
             <button class="btn btn-dark"><a href="${url}" target="_blank" rel="noopener noreferrer" class="link-danger text-decoration-none" >RECIPE</a></button>
             <button class="btn btn-danger"><a href="https://www.10bis.co.il/next/en/deliveries/lod" target="_blank" class="link-dark text-decoration-none" >ORDER NOW</a></button>
-          </div>
+          
         </div>
     `;
 }

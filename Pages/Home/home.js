@@ -6,9 +6,9 @@ function sound(){
 function  pageHome(){
     localStorage.setItem('page', 'Home');
     document.querySelector('#div_container').innerHTML = `
-    <div class="container-fluid mt-0 text-bg-black">
+    <div class="container-fluid mt-0 text-beg-black">
     <video autoplay class="w-100 px-0" muted="true" loop poster="video.jpg" id="myVideo">
-      <source src="VIDEO/black-panther-2-trailer-2022-wakanda-forever.mp4" type="video/mp4">
+      <source src="VIDEO/black-panther-2-trailer-2022-wakanda-forever..mp4" type="video/mp4">
     </video>
         <div class="card-img-overlay pt-5 m-5">
             <h1 class="card-title">Black Panther 2</h1>

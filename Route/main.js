@@ -9,7 +9,6 @@ function changeMainContent(value){
             break;
         case 'Food':
             pageFood()
-            break;
         case 'Drama':
             pageDramaMovies()
             break;
@@ -19,7 +18,7 @@ function changeMainContent(value){
         case 'Popular':
             pagePopularMovies()
             break;
-        case 'TOP THIS WEEK':
+        case 'TP THIS WEEK':
             pageTopMovies()
             break;
         case 'Sci-fi':

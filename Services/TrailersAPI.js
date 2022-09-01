@@ -46,7 +46,7 @@ let trailairsApi =[]
 async function getMovieTralier(){
     const IdArr = await getMoviesId()
     for(let movieID of IdArr){
-        trailairsApi.push(`${TbasicApi}${movieID}`)
+        trailairsApi.push(`${TbasicApi}gg${movieID}`)
     }
     return (trailairsApi)
 }
